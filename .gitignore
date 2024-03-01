@@ -1,0 +1,11 @@
+# export files for BOM
+*.csv
+*.tsv
+*.xml
+*.zip
+*.lck
+# backup files
+ *.bak
+/Gerbers
+
+COMPRESSORFOC.net
