@@ -2,10 +2,9 @@
 *.csv
 *.tsv
 *.xml
-*.zip
 *.lck
 # backup files
  *.bak
 /Gerbers
-
+/COMPRESSORFOC-backups
 COMPRESSORFOC.net
