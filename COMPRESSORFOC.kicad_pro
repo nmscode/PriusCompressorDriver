@@ -55,7 +55,13 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|161400001|93520001|0fb887b8-9467-48da-8aa9-ce736d82cff7|719a488d-f446-48ca-989f-1aabcba0260f",
+        "courtyards_overlap|162532501|85470001|0fb887b8-9467-48da-8aa9-ce736d82cff7|a3602de4-dfd6-4ecf-81c0-53da70711914",
+        "courtyards_overlap|163467021|87620001|0fb887b8-9467-48da-8aa9-ce736d82cff7|3f3920c0-8394-4f10-9572-9e02edf832bf",
+        "courtyards_overlap|168251150|93357501|0fb887b8-9467-48da-8aa9-ce736d82cff7|662856a7-3f95-43b1-aee5-a08818b8b5b7",
+        "items_not_allowed|188862000|87924000|0545bca1-09d9-44b7-90ca-6d04a47e7a98|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -75,7 +81,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
-        "invalid_outline": "error",
+        "invalid_outline": "warning",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
