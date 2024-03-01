@@ -1,11 +1,11 @@
 name: Assembly Documentation
 
 on:
-  pull_request:
-    branches:
-      - main
-    types:
-      - closed
+  # pull_request:
+  #   branches:
+  #     - main
+  #   types:
+  #     - closed
   
   push:
     branches:
@@ -18,7 +18,7 @@ env:
 
 jobs:
   buildfiles:
-    if: github.event.pull_request.merged == true
+    #if: github.event.pull_request.merged == true
     name: Design check & documentation build
     runs-on: ubuntu-latest
     steps:
