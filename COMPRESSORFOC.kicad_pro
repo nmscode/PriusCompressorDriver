@@ -201,7 +201,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|1416050|711200|edaca035-b2f4-449d-b238-c2b07050d303|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|1574800|1460500|fac1b816-61f6-48c3-bbf1-0cc77ec55fe7|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|2247900|1206500|f68fb378-86d4-4c37-bebf-84dbec2a69fe|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|2343150|1047750|29306407-317c-4168-83bb-d05c35279d92|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|2584450|1174750|830c5399-a088-491d-883e-06cdfa565de6|00000000-0000-0000-0000-000000000000|||",
+      "multiple_net_names|1143000|1760220|0e287327-1e85-4250-9500-7bf5499951d1|10828b86-5120-44f6-9132-9a1fbc784a4d|||",
+      "multiple_net_names|1203960|1437640|19463c60-a426-41ef-b3f5-eaa232a527d2|83702142-e0e5-43cb-90db-a88d270707b6|||",
+      "multiple_net_names|1634490|684530|70363b6a-3bac-4a4f-a730-f3ab579ea3de|f64f7d6c-c27b-4fc1-bf3d-a89950f062be|||"
+    ],
     "meta": {
       "version": 0
     },
@@ -385,7 +394,7 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
+      "endpoint_off_grid": "ignore",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
@@ -401,7 +410,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
